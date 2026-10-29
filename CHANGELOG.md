@@ -6,6 +6,8 @@ All notable changes to this project are documented here. The project follows
 
 ## [Unreleased]
 
+- Manila gets real exchanges: GotchaFIX Manila, the free community Bayanihan-IX and In-Vitro-IX, run by PLDTea Time. Snow Globe, Diverge, Smarty Pants and Ditto join as Philippine networks, and PLDTea Time and Snow Globe now sell transit.
+
 ## [1.35.0] — 2026-10-27
 
 - Series of Tubes now speaks Spanish. The game follows your browser's language the first time, and you can switch to Spanish under Settings or on the title screen.

@@ -149,3 +149,16 @@ test('Manila: a home city on the start screen', () => {
   assert.ok(ev('!!S.pops.mnl'), 'the first router is in Manila');
   assert.deepEqual(errors, []);
 });
+
+test('Philippines: waves between the islands cost more than waves out of the country', () => {
+  const { ev, errors } = load();
+  start(ev);
+  // cheapest 10G wave on any cable between two cities
+  const w = (a, b) => ev(`Math.min(...cablesOk('${a}','${b}').map(c=>waveMo(c.km,true,0)*CAB[c.cid].price*waveMarket('${a}','${b}',true).m))`);
+  assert.equal(ev("waveMarket('mnl','ceb',true).reg"), ev('PH_WAVE'));
+  assert.equal(ev("waveMarket('mnl','hkg',true).reg"), 1.5, 'international routes keep the Asian rate');
+  const ratio = w('mnl', 'ceb') / w('mnl', 'hkg');
+  assert.ok(ratio > 1.8 && ratio < 2.2, `Manila–Cebu is ${ratio.toFixed(2)} times Manila–Hong Kong`);
+  assert.ok(w('ceb', 'dvo') > w('mnl', 'hkg'), 'even the short Cebu–Davao hop costs more than Hong Kong');
+  assert.deepEqual(errors, []);
+});

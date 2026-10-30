@@ -3023,6 +3023,7 @@
 "title.crossroads_of_europe_de_kicks_ix":"Crocevia d’Europa. IX DE-KICKS, transit economico.",
 "title.hard_mode_everything_overseas_costs":"Modalità difficile. Tutto ciò che va all’estero costa una fortuna, la gente del posto paga cifre altissime, soprattutto alla Nearly Broadband Network, e tutto il resto cerca di ucciderti.",
 "title.huge_eyeball_market_pricey":"Enorme mercato di eyeball. Vicini costosi.",
+"title.islands_mode_transit_costs_twice_asia":"Modalità isole. Il transito costa il doppio che nel resto dell'Asia, un solo operatore storico possiede le rotte, tre exchange e i tifoni.",
 "title.name_your_network":"Dai un nome alla tua rete",
 "title.new_in_series_of_tubes_v":"Novità di Series of Tubes {v}",
 "title.pick_your_home_city":"Scegli la tua città di partenza",

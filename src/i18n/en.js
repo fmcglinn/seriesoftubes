@@ -3024,6 +3024,7 @@
 "title.crossroads_of_europe_de_kicks_ix":"Crossroads of Europe. DE-KICKS IX, cheap transit.",
 "title.hard_mode_everything_overseas_costs":"Hard mode. Everything overseas costs a fortune, locals pay top dollar, mostly to the Nearly Broadband Network, and everything else is trying to kill you.",
 "title.huge_eyeball_market_pricey":"Huge eyeball market. Pricey neighbours.",
+"title.islands_mode_transit_costs_twice_asia":"Islands mode. Transit costs twice Asia's, one incumbent owns the routes, three exchanges, and typhoons.",
 "title.name_your_network":"Name your network",
 "title.new_in_series_of_tubes_v":"New in Series of Tubes {v}",
 "title.pick_your_home_city":"Pick your home city",

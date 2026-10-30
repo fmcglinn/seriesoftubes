@@ -1,7 +1,7 @@
 function showTitle(){
   const sv=loadSave();
   if(UI.nm==null)UI.nm=randomNetworkName();
-  const starts=[['fra',tr('title.crossroads_of_europe_de_kicks_ix')],['nyc',tr('title.huge_eyeball_market_pricey')],['sin',tr('title.asia_hub_great_peering_far_from')],['sao',tr('title.big_hungry_market_few_providers')],['syd',tr('title.hard_mode_everything_overseas_costs')]];
+  const starts=[['fra',tr('title.crossroads_of_europe_de_kicks_ix')],['nyc',tr('title.huge_eyeball_market_pricey')],['sin',tr('title.asia_hub_great_peering_far_from')],['mnl',tr('title.islands_mode_transit_costs_twice_asia')],['sao',tr('title.big_hungry_market_few_providers')],['syd',tr('title.hard_mode_everything_overseas_costs')]];
   openModal(`<div class="title-art"><svg width="74" height="74" viewBox="0 0 74 74" aria-hidden="true"><path d="M10 60V40c0-14 10-24 24-24h18" fill="none" stroke="#1E2640" stroke-width="16" stroke-linecap="round"/><path d="M10 60V40c0-14 10-24 24-24h18" fill="none" stroke="#FFD23F" stroke-width="9" stroke-linecap="round"/><circle cx="58" cy="16" r="11" fill="#FF4F9A" stroke="#1E2640" stroke-width="4"/><circle cx="21" cy="44" r="3" fill="#fff"/><circle cx="30" cy="27" r="3" fill="#fff"/></svg>
   <h1>Series<br>of <span>Tubes</span></h1></div>
   <p class="tagline">${tr('title.build_an_internet_lay_fiber_between')}</p>${plugHtml(false)}${isPhone()?installRow():''}

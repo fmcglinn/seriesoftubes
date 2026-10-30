@@ -136,3 +136,13 @@ test('the Philippines: transit about 1.9 times the Asian rate, homes pay about U
   assert.ok(ev("transitMo({net:'sgt',city:'mnl',tier:1},10)>transitMo({net:'sgt',city:'jkt',tier:1},10)"));
   assert.deepEqual(errors, []);
 });
+
+test('Manila: a home city on the start screen', () => {
+  const { ev, errors } = load();
+  ev("showTitle()");
+  assert.ok(ev("!!document.querySelector('.start[data-city=\"mnl\"]')"), 'Manila is on the start screen');
+  ev("ACT.pickStart({city:'mnl'});ACT.start({})");
+  assert.equal(ev('S.home'), 'mnl');
+  assert.ok(ev('!!S.pops.mnl'), 'the first router is in Manila');
+  assert.deepEqual(errors, []);
+});

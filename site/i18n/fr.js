@@ -3023,6 +3023,7 @@
 "title.crossroads_of_europe_de_kicks_ix":"Carrefour de l’Europe. IX DE-KICKS, transit pas cher.",
 "title.hard_mode_everything_overseas_costs":"Mode difficile. Tout ce qui part à l’étranger coûte une fortune, les gens d’ici paient le prix fort, surtout à la Nearly Broadband Network, et tout le reste essaie de te tuer.",
 "title.huge_eyeball_market_pricey":"Énorme marché d’eyeballs. Voisins chers.",
+"title.islands_mode_transit_costs_twice_asia":"Mode îles. Le transit coûte deux fois plus que dans le reste de l'Asie, un opérateur historique possède les routes, trois points d'échange et des typhons.",
 "title.name_your_network":"Nomme ton réseau",
 "title.new_in_series_of_tubes_v":"Nouveautés de Series of Tubes {v}",
 "title.pick_your_home_city":"Choisis ta ville de départ",

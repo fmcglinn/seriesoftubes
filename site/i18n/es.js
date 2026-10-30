@@ -3023,6 +3023,7 @@
 "title.crossroads_of_europe_de_kicks_ix":"La encrucijada de Europa. DE-KICKS IX, tránsito barato.",
 "title.hard_mode_everything_overseas_costs":"Modo difícil. Todo lo de ultramar cuesta una fortuna, los locales pagan un dineral, sobre todo a la Nearly Broadband Network, y todo lo demás intenta matarte.",
 "title.huge_eyeball_market_pricey":"Mercado enorme de eyeballs. Vecinos caros.",
+"title.islands_mode_transit_costs_twice_asia":"Modo islas. El tránsito cuesta el doble que en el resto de Asia, un solo operador histórico es dueño de las rutas, tres exchanges y tifones.",
 "title.name_your_network":"Ponle nombre a tu red",
 "title.new_in_series_of_tubes_v":"Novedades de Series of Tubes {v}",
 "title.pick_your_home_city":"Elige tu ciudad de origen",
